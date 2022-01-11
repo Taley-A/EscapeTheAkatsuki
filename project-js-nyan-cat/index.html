@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Escape the Akatsuki</title>
+  </head>
+  <body>
+    <div class="header">
+      Escape the Akatsuki
+      <div id="instructions">Instructions: Use the arrow keys to avoid the kunai. Every second you survive counts as a point! </div>
+    </div>
+    <div class="wrapper">
+      <div id="app">
+        <button id="button" onclick="window.location.reload();" class="button"><p>GAME OVER!</p>CLICK HERE TO TRY AGAIN!</button>
+        <div id="score" class="score">Score: 0</div>
+        <div id="damage">Damage: 0%</div>
+  </div>
+    <!-- <div id="instructions" class="instructions">
+      <p>Every second you survive counts as a point!</p>
+    </div> -->
+    <script src="js/data.js"></script>
+    <script src="js/Enemy.js"></script>
+    <script src="js/engine-utilities.js"></script>
+    <script src="js/Engine.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
