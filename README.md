@@ -6,7 +6,7 @@ It was initially a Nyan Cat game with no features and a bunch of errors in the c
 
 Adding layers of difficulty to the game made it more interesting and it was very fun to make.
 
-Every 30 seconds the speed of the kunai's increase and every 25% of damge you take to your 100% health bar, Naruto becomes more bloody and bruised.
+Every 30 seconds the speed of the kunai's increase and every 25% of damage you take to your health, Naruto becomes more bloody and bruised.
 
 The game is being hosted on Netlify and you may play the game directly here : https://escape-the-akatsuki.netlify.app/
 
